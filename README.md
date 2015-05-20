@@ -7,16 +7,19 @@ Este es un ejemplo de Github para la comunidad
 
 Una vez instalas git debes configurarlo:
 
-git config --global user.name "yairtruiz"
-git config --global user.email "<yairtruiz@gmail.com>"
+git config --global user.name "nameuser"
+
+git config --global user.email "<emailuser>"
 
 Generando tu public key:
+
 ssh-keygen
 
-Leyendo tu llave para copiarla a Github:
+Leyendo la llave para copiarla a Github:
+
 cat ~/.ssh/id_rsa.pub
 
-Arrnacando tu proyecto
+Arrancando tu proyecto
 git init
 
 Crear archivo
